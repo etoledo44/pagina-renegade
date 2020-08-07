@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tony Veiculos</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="https://tonyveiculos.com.br/" class="container">
+            <img src="./public/images/logo.png" alt="Logo Tony Veiculos">
+        </a>
+    </nav>
+    <!--  -->
+    <div class="container mt-2">
+        <div class="slogan">
+            <h2>Ficou muito mais simples ter um carro!</h2>
+            <p >Só aqui na Tony mesmo você que está com o <strong>Nome Sujo</strong>  pode ter seu carro novo e sem burocracia. A Tony acredita em Você!</p>
+        </div>
+        <div class="car mt-5">
+            <div class="description">
+                <h3>Renegade 2017 - 1.8 Autom.</h3>
+                <span>De</span>
+                <h3>R$ 80.000,00</h3>
+                <span>Por</span>
+                <h3 style="font-size: 45px;">R$ 69.900,00</h3>
+            </div>
+            <div class="split-content">
+                <ol class="spec-list">
+                    <li><i data-feather="check-circle" id="check"></i>1 Ano de Garantia</li>
+                    <li><i data-feather="check-circle" id="check"></i>Completo</li>
+                    <li><i data-feather="check-circle" id="check"></i>Câmbio Automático</li>
+                    <li><i data-feather="check-circle" id="check"></i>Roda de Liga Leve</li>
+                </ol>
+                <img style="width: 60%;" src="./public/images/car.png" alt="Carro Renegade">
+            </div>
+        </div>
+        <div class="more-form mt-5">
+            <h2>SAIBA MAIS</h2>
+            <p >Para mais informações preencha seus dados e entraremos em contato</p>
+            <form id="form-contact">
+                <input type="text" placeholder="Nome" id="name" required>
+                <input type="tel" placeholder="Telefone" id="tel" required>
+                <select name="time" id="time" required >
+                    <option  value="horario" disabled selected>Melhor horário para contato</option>
+                    <option  value="horario2">Melhor horário 2</option>
+                    <option  value="horario3">Melhor horário 3</option>
+                    <option  value="horario4">Melhor horário 4</option>
+                </select>
+                <button class="buttonPrimary" type="submit">Enviar</button>
+            </form>
+        </div>
+        <!--  -->
+        <div class="slogan m-5">
+            <h2 >Como funciona?</h2>
+            <p >Entenda as condições que criamos para você sair de carro novo</p>
+        </div>
+        <!--  -->
+        <div class="split-content" id="second-split-content">
+            <img class="mr-4" src="./public/images/phone.png" alt="Aplicativo para criar ficha">
+            <div class="description">
+                <h4>A Tony vende para mim que estou com o nome sujo?</h4>
+                <p>Sim, a Tony Veículos acredita que mesmo você que está negativado tem o direito de ter um carro novo.</p>
+                <h4>Posso parcelar a entrada?</h4>
+                <p>Infelizmente para essas condições não podemos parcelar a entrada, porem a Tony tem um produto chamado <strong>Compra Programada</strong> que ajuda você que quer comprar um carro mas está com o nome sujo e não tem entrada. <a href="http://" target="_blank" rel="noopener noreferrer">para saber mais clique aqui.</a></p>
+                <h4>Não tenho CNH, posso comprar mesmo assim?</h4>
+                <p>Infelizmente é necessário ter a CNH para vendermos nessas condições.</p>
+            </div>
+        </div>
+       
+        <!--  -->
+        <div class="slogan m-5">
+            <h2 >Outras Dúvidas</h2>
+            <p >Entenda as condições que criamos para você sair de carro novo</p>
+        </div>
+        <!--  -->
+        <div class="split-content" id="third-split-content">
+            <div class="description mr-4">
+                <h4>Como posso dar a entrada?</h4>
+                <p>Para essas condições a entrada precisa ser feita em dinheiro.</p>
+                <h4>Posso dar um carro como entrada? Sim, aceitamos o seu usado como entrada.</h4>
+                <p>Sim, aceitamos o seu usado como entrada.</p>
+                <h4>O que a garantia de 1 ano cobre ?</h4>
+                <p>A garantia cobre: motor, câmbio e partes internas.</p>
+            </div>
+            
+            <img src="./public/images/phone_car.png" alt="Aplicativo Tony Veiculos">
+        </div>
+        <!--  -->
+        <div class="start">
+            <h2 >Você está esperando o que para começar ?</h2>
+            <p >Prencha seus dados agora e entraremos em contato</p>
+            <button class="buttonPrimary">SAIBA MAIS</button>
+        </div>
+        <!--  -->
+        <div class="logos">
+            <div class="logo-primary">
+                <img src="./public/images/one_year.png" alt="">
+                <img src="./public/images/negativado.png" alt="">
+            </div>
+            <div class="logo-secondary">
+                <img src="./public/images/biggest_market.png" alt="">
+                <img src="./public/images/40_years.png" alt="">
+                <img src="./public/images/plus_800.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <nav class="navbar bottom navbar-light bg-dark" id="footer">
+        <div class="container">
+            <img src="./public/images/logo.png" alt="Logo Tony Veiculos">
+            <div>
+                <a href="#"><i data-feather="facebook" id="icons"></i></a>
+                <a href="#"><i data-feather="instagram" id="icons"></i></a>
+                <a href="#"><i data-feather="youtube" id="icons"></i></a>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./public/scripts/jquery.validate.js"></script>
+    <script src="./public/scripts/formValidation.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
